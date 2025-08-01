@@ -1,0 +1,49 @@
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos e diretórios do WordPress
+*.log
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/mu-plugins/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Node e dependências
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Arquivos de ambiente
+.env
+.env.*
+!.env.example
+
+# Arquivos de compilação
+*.zip
+*.tar.gz
+*.7z
+dist/
+build/
+
+# Arquivos temporários
+*.swp
+*.swo
+*~
+
+# Arquivos de teste
+phpunit.xml
+.phpunit.result.cache

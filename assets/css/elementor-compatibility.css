@@ -1,0 +1,107 @@
+/* Compatibilidade com widgets do Elementor */
+.elementor-widget-woocommerce-my-account .woocommerce-MyAccount-navigation {
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.elementor-widget-woocommerce-my-account .woocommerce-MyAccount-content {
+    float: none;
+    width: 100%;
+}
+
+/* Dashboard Grid dentro do Elementor */
+.elementor-widget-woocommerce-my-account .wcd-dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0;
+}
+
+/* Cards e Componentes */
+.elementor-widget-woocommerce-my-account .wcd-dashboard-card {
+    background: #fff;
+    padding: 20px;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+
+/* Quick Links */
+.elementor-widget-woocommerce-my-account .wcd-quick-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.elementor-widget-woocommerce-my-account .wcd-quick-link {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.elementor-widget-woocommerce-my-account .wcd-quick-link:hover {
+    transform: translateY(-2px);
+}
+
+/* Menu Icons */
+.elementor-widget-woocommerce-my-account .woocommerce-MyAccount-navigation-link {
+    position: relative;
+}
+
+.elementor-widget-woocommerce-my-account .wcd-menu-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.elementor-widget-woocommerce-my-account i.elementor-menu-icon {
+    margin-right: 8px;
+    width: 20px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .elementor-widget-woocommerce-my-account .wcd-dashboard {
+        grid-template-columns: 1fr;
+    }
+    
+    .elementor-widget-woocommerce-my-account .wcd-quick-links {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Fix para temas do Elementor */
+.elementor-widget-woocommerce-my-account .woocommerce-MyAccount-content {
+    background: transparent;
+    padding: 0;
+}
+
+/* Animações e Transições */
+.elementor-widget-woocommerce-my-account .wcd-dashboard-card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: wcdFadeInUp 0.5s ease forwards;
+}
+
+@keyframes wcdFadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Ajustes de Espaçamento */
+.elementor-widget-woocommerce-my-account .wcd-dashboard > * {
+    margin: 0;
+}
+
+.elementor-widget-woocommerce-my-account .wcd-welcome {
+    grid-column: 1 / -1;
+    margin-bottom: 20px;
+}

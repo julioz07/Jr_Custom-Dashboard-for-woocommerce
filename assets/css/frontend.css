@@ -1,0 +1,152 @@
+.wcd-dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Welcome Section */
+.wcd-welcome {
+    margin-bottom: 30px;
+}
+
+.wcd-welcome h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Quick Links */
+.wcd-quick-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.wcd-quick-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: var(--wcd-border-radius, 8px);
+    transition: transform 0.2s;
+}
+
+.wcd-quick-link:hover {
+    transform: translateY(-2px);
+}
+
+.wcd-quick-link-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Dashboard Grid */
+.wcd-dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* Recent Orders */
+.wcd-recent-orders {
+    background: #fff;
+    padding: 20px;
+    border-radius: var(--wcd-border-radius, 8px);
+}
+
+.wcd-order-item {
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.wcd-order-item:last-child {
+    border-bottom: none;
+}
+
+.wcd-order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.wcd-order-status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/* Suggested Products */
+.wcd-products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.wcd-product-card {
+    background: #fff;
+    border-radius: var(--wcd-border-radius, 8px);
+    overflow: hidden;
+}
+
+.wcd-product-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wcd-product-info {
+    padding: 15px;
+}
+
+.wcd-product-title {
+    margin: 0 0 10px;
+    font-size: 16px;
+}
+
+/* Common Elements */
+.wcd-view-all {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+/* Card Shadow */
+.wcd-card-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .wcd-dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .wcd-quick-links {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Orders Chart */
+.wcd-chart-container {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+/* Menu Icons */
+.woocommerce-MyAccount-navigation-link img.wcd-menu-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.woocommerce-MyAccount-navigation-link i {
+    margin-right: 5px;
+    vertical-align: middle;
+}
