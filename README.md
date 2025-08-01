@@ -81,7 +81,7 @@ Este plugin está licenciado sob GPL v2 ou posterior.
 
 ## Screenshots
 
-![Dashboard Cards](.github/screenshots/card.png)
+![Dashboard Cards](/screenshots/cards.png)
 
 ## Changelog
 
