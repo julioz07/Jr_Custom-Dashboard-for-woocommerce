@@ -6,6 +6,10 @@ Um plugin WordPress que melhora o painel de controlo do cliente WooCommerce com 
 
 O WooCustom Dashboard transforma o painel padrão do WooCommerce numa interface mais intuitiva e moderna, oferecendo aos clientes uma visão clara e organizada das suas informações mais importantes.
 
+## Screenshots
+
+![Dashboard Cards](/screenshots/cards.png)
+
 ### Funcionalidades Principais
 
 - **Encomendas Recentes**
@@ -78,10 +82,6 @@ Este plugin está licenciado sob GPL v2 ou posterior.
 **Júlio Rodrigues**
 - Website: [julio-cr.pt](https://julio-cr.pt)
 - LinkedIn: [juliocesarrodrigues07](https://www.linkedin.com/in/juliocesarrodrigues07/)
-
-## Screenshots
-
-![Dashboard Cards](/screenshots/cards.png)
 
 ## Changelog
 
