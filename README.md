@@ -83,11 +83,21 @@ Este plugin está licenciado sob GPL v2 ou posterior.
 - Website: [julio-cr.pt](https://julio-cr.pt)
 - LinkedIn: [juliocesarrodrigues07](https://www.linkedin.com/in/juliocesarrodrigues07/)
 
+## Versões Disponíveis
+
+Este plugin está disponível em duas versões:
+
+- **Português (Portugal)** - Esta versão (pasta principal)
+- **English** - Versão em inglês (pasta "EN Version")
+
+Escolha a versão que melhor se adequa às suas necessidades. Ambas as versões têm exatamente as mesmas funcionalidades, diferindo apenas no idioma da interface.
+
 ## Changelog
 
 ### 1.4.1
 - Tradução completa para português de Portugal
 - Melhorias na estrutura do código
+- Adicionada versão em inglês do plugin
 
 ### 1.4.0
 - Simplificação do plugin
