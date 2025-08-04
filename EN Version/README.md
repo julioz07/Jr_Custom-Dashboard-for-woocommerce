@@ -1,4 +1,4 @@
-# WooCustom Dashboard
+# Jr Custom Dashboard for WooCommerce
 
 A WordPress plugin that enhances the WooCommerce customer dashboard with a modern design and improved features.
 
